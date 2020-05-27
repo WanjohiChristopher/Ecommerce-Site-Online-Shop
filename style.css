@@ -1,0 +1,87 @@
+.site-logo{
+    border-radius: 2px;
+    width: 150px;
+    height: 150px;
+    alignment: left;
+}
+img{
+    max-width: 100px;
+    background: lightblue;
+    height: auto;
+    background: radial-gradient(white 30%,lightblue 70%);
+}
+.fa-star,.fa-shopping-cart{
+    color: yellowgreen;
+    padding: 3% 0;
+}
+#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 5rem;
+}
+.shopping-cart{
+    padding: 3% 0;
+}
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+.price-details h6{
+    padding: 3% 2%;
+}
+/* ----------------
+Hero section
+ ---------------------*/
+
+.hero-section {
+    padding-top: 191px;
+    padding-bottom: 108px;
+    position: relative;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 99;
+}
+
+.hero-slider {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.hero-slider .owl-stage-outer,
+.hero-slider .owl-stage,
+.hero-slider .owl-item,
+.hero-slider .hs-item {
+    height: 100%;
+}
+
+.hero-slider .owl-dots {
+    position: absolute;
+    max-width: 1146px;
+    width: 100%;
+    bottom: 34px;
+    left: calc(50% - 573px);
+}
+
+.hero-slider .owl-dots .owl-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 10px;
+    margin-right: 7px;
+    background: #fff;
+}
+
+.hero-slider .owl-dots .owl-dot:last-child {
+    margin-right: 0;
+}
+
+.hero-slider .owl-dots .owl-dot.active {
+    background: #f43f00;
+}
+.footer-section {
+    background: blue;
+}

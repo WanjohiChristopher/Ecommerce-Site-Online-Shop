@@ -1,0 +1,89 @@
+.good{
+    width:1000px;
+    margin:0 auto;
+
+    padding: 5px;
+    border-radius: 20px;
+    border:2px solid #2c3e50;
+}
+.photo{
+    width: 100px;
+    text-align: center;
+    border-radius: 40px;
+height: 100px;
+}
+.form-control{
+    width:450px;
+    margin:0 auto;
+}
+
+#body{
+    width:500px;
+    margin:0 auto;
+    background:white;
+    padding: 5px;
+    border-radius: 20px;
+    border:2px solid #2c3e50;
+}
+.myform{
+    width:450px;
+    margin:0 auto;
+}
+.input{
+width: 430px;
+    margin: 0 auto;
+    padding: 5px;
+}
+#login_btn{
+    margin-top: 10px;
+    background-color: darkgreen;
+    padding: 5px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+#register_btn{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: darkblue;
+    padding: 5px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+#signup_btn{
+    margin-top: 10px;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+#back_btn {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: red;
+    padding: 5px;
+    color: white;
+    width: 30%;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+}
+#logout_btn {
+    margin-top: 10px;
+    background-color: purple;
+    padding: 5px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
